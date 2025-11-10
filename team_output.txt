@@ -1,0 +1,60 @@
+Sinistcha @ Heavy-Duty Boots
+Ability: Heatproof
+EVs: 252 HP / 252 Def / 4 SpD
+Tera Type: Poison
+Bold Nature
+- Calm Mind
+- Matcha Gotcha
+- Shadow Ball
+- Strength Sap
+
+Landorus-Therian @ Rocky Helmet
+Ability: Intimidate
+EVs: 252 HP / 4 Def / 252 Spe
+Tera Type: Water
+Timid Nature
+- Stealth Rock
+- Earth Power
+- U-turn
+- Taunt
+
+Araquanid @ Custap Berry
+Ability: Water Bubble
+EVs: 252 HP / 40 Def / 216 SpA
+Tera Type: Ghost
+Modest Nature
+- Sticky Web
+- Surf
+- Endeavor
+- Endure
+
+Ceruledge @ Life Orb
+Ability: Weak Armor
+EVs: 252 Atk / 4 SpD / 252 Spe
+Tera Type: Ghost
+Jolly Nature
+- Swords Dance
+- Bitter Blade
+- Shadow Sneak
+- Poltergeist
+
+Enamorus @ Leftovers
+Ability: Cute Charm
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Tera Type: Ground
+Timid Nature
+- Calm Mind
+- Moonblast
+- Earth Power
+- Substitute
+
+Scizor @ Life Orb
+Ability: Technician
+EVs: 120 HP / 252 Atk / 136 Spe
+Tera Type: Steel
+Adamant Nature
+- Swords Dance
+- Bullet Punch
+- Close Combat
+- Knock Off
