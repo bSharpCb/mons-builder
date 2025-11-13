@@ -15,6 +15,9 @@ This tool generates competitive Pokémon teams with proper defensive coverage ag
   - 1 dark resist
 - Selects appropriate builds for each Pokémon from a database
 - Outputs a complete team in standard Smogon format
+- Allows users to specify Pokémon to include in the team
+- Allows users to specify Pokémon to exclude from team generation
+- Ensures only one form of Ogerpon is included in a team (following game rules)
 
 ## Requirements
 
@@ -23,13 +26,40 @@ This tool generates competitive Pokémon teams with proper defensive coverage ag
 ## Usage
 
 1. Ensure you have the `mons_db.json` file in the same directory as the script
-2. Run the script:
+2. (Optional) Modify the `config.json` file to specify Pokémon to include or exclude
+3. Run the script:
 
 ```bash
 python3 team_builder.py
 ```
 
-3. The generated team will be saved to `team_output.txt` and also displayed in the console
+4. The generated team will be saved to `team_output.txt` and also displayed in the console
+
+## Configuration
+
+You can customize team generation by editing the `config.json` file:
+
+```json
+{
+  "include_pokemon": ["landorus-therian", "heatran"],
+  "exclude_pokemon": ["kyurem", "darkrai"]
+}
+```
+
+- `include_pokemon`: List of Pokémon names that should be included in the team
+  - These Pokémon will be prioritized and guaranteed to be in the final team
+  - If you specify more than 6 Pokémon, only the first 6 will be used
+  - Names are case-insensitive
+
+- `exclude_pokemon`: List of Pokémon names that should never appear in the team
+  - These Pokémon will be excluded from team generation
+  - Names are case-insensitive
+
+Note: If a Pokémon name in your configuration doesn't match any in the database, it will be ignored with a warning message.
+
+### Special Rules
+
+- **Ogerpon Forms**: Following the game's rules, only one form of Ogerpon can be included in a team. If multiple Ogerpon forms are specified in the `include_pokemon` list, only the first one will be used, and a warning will be displayed.
 
 ## How It Works
 
@@ -44,6 +74,8 @@ The team builder uses the following algorithm:
 ## Customization
 
 You can modify the coverage requirements by editing the `COVERAGE_REQUIREMENTS` dictionary in the script. The keys are attack types, and the values are the number of Pokémon that should resist that type.
+
+You can also modify the type effectiveness chart by editing the `TYPE_CHART` dictionary if you need to adjust how resistances are calculated.
 
 ## Example Output
 

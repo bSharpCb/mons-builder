@@ -4,10 +4,17 @@ Pokémon Team Builder for Smogon OU Singles Metagame
 
 This tool generates competitive Pokémon teams with proper defensive coverage
 against common threats in the Smogon OU metagame.
+
+Features:
+- Ensures proper type coverage against common threats
+- Allows users to specify Pokémon to include in the team
+- Allows users to specify Pokémon to exclude from team generation
 """
 
 import json
 import random
+import os
+import sys
 from typing import Dict, List, Set, Tuple, Optional
 
 # Type effectiveness chart
@@ -68,7 +75,11 @@ class Pokemon:
     
     def get_random_build(self) -> str:
         """Return a random build for this Pokémon."""
-        return random.choice(self.builds)
+        build_choice = random.choice(self.builds)
+        # Handle both string builds (old format) and object builds (new format)
+        if isinstance(build_choice, dict):
+            return build_choice["build"]
+        return build_choice
     
     def resists_type(self, attack_type: str) -> float:
         """
@@ -267,10 +278,152 @@ class TeamBuilder:
         return "\n\n".join(output)
 
 
+class ConfigManager:
+    """Class to manage user configuration for team building."""
+    
+    def __init__(self, config_path: str = "config.json"):
+        """Initialize with the path to the config file."""
+        self.config_path = config_path
+        self.config = self._load_config()
+    
+    def _load_config(self) -> Dict:
+        """Load configuration from the JSON file."""
+        if not os.path.exists(self.config_path):
+            # Create default config if it doesn't exist
+            default_config = {
+                "include_pokemon": [],
+                "exclude_pokemon": []
+            }
+            with open(self.config_path, 'w') as f:
+                json.dump(default_config, f, indent=2)
+            return default_config
+        
+        try:
+            with open(self.config_path, 'r') as f:
+                return json.load(f)
+        except json.JSONDecodeError:
+            print(f"Error: {self.config_path} is not a valid JSON file.")
+            return {"include_pokemon": [], "exclude_pokemon": []}
+    
+    def get_included_pokemon(self) -> List[str]:
+        """Get the list of Pokémon to include in team generation."""
+        return self.config.get("include_pokemon", [])
+    
+    def get_excluded_pokemon(self) -> List[str]:
+        """Get the list of Pokémon to exclude from team generation."""
+        return self.config.get("exclude_pokemon", [])
+
+
+def is_ogerpon_form(pokemon_name: str) -> bool:
+    """Check if a Pokémon is any form of Ogerpon."""
+    return "ogerpon" in pokemon_name.lower()
+
+
 def main():
     """Main function to run the team builder."""
+    # Load configuration
+    config_manager = ConfigManager()
+    included_pokemon = config_manager.get_included_pokemon()
+    excluded_pokemon = config_manager.get_excluded_pokemon()
+    
+    # Initialize team builder
     builder = TeamBuilder("mons_db.json")
-    team_output = builder.generate_team_output()
+    
+    # Validate included Pokémon
+    all_pokemon_names = [p.name.lower() for p in builder.pokemon_list]
+    invalid_includes = [p for p in included_pokemon if p.lower() not in all_pokemon_names]
+    if invalid_includes:
+        print(f"Warning: The following Pokémon in your include list are not in the database: {', '.join(invalid_includes)}")
+        included_pokemon = [p for p in included_pokemon if p.lower() in all_pokemon_names]
+    
+    # Modify the team building process based on user preferences
+    if included_pokemon:
+        # Pre-select the included Pokémon
+        team = []
+        has_ogerpon = False
+        
+        for name in included_pokemon:
+            for pokemon in builder.pokemon_list:
+                if pokemon.name.lower() == name.lower():
+                    # Check if this is an Ogerpon form and if we already have one
+                    if is_ogerpon_form(pokemon.name) and has_ogerpon:
+                        print(f"Warning: Multiple Ogerpon forms detected in include list. Only using the first one.")
+                        continue
+                    
+                    team.append(pokemon)
+                    
+                    # Mark that we have an Ogerpon if this is one
+                    if is_ogerpon_form(pokemon.name):
+                        has_ogerpon = True
+                    
+                    break
+        
+        # Fill the rest of the team
+        remaining_slots = 6 - len(team)
+        if remaining_slots > 0:
+            # Exclude both the already included Pokémon and user-specified exclusions
+            excluded = [p.lower() for p in excluded_pokemon] + [p.name.lower() for p in team]
+            
+            # Filter the available Pokémon
+            available_pokemon = [p for p in builder.pokemon_list if p.name.lower() not in excluded]
+            
+            # If we already have an Ogerpon, exclude all other Ogerpon forms
+            if has_ogerpon:
+                available_pokemon = [p for p in available_pokemon if not is_ogerpon_form(p.name)]
+            
+            # Build the rest of the team
+            builder.pokemon_list = available_pokemon
+            remaining_team = builder.build_team()
+            
+            # Take only what we need to fill the team
+            team.extend(remaining_team[:remaining_slots])
+        
+        # Generate output with the custom team
+        output = []
+        for pokemon in team:
+            build = pokemon.get_random_build()
+            output.append(build)
+        
+        team_output = "\n\n".join(output)
+    else:
+        # Normal team building, just exclude specified Pokémon
+        if excluded_pokemon:
+            # Filter out excluded Pokémon
+            builder.pokemon_list = [p for p in builder.pokemon_list if p.name.lower() not in [name.lower() for name in excluded_pokemon]]
+        
+        # Generate a team normally, but ensure only one Ogerpon form
+        team = []
+        has_ogerpon = False
+        
+        # Keep building until we have 6 Pokémon
+        while len(team) < 6:
+            # Get the next Pokémon
+            remaining_pokemon = [p for p in builder.pokemon_list if p.name not in [t.name for t in team]]
+            
+            # If we already have an Ogerpon, exclude all other Ogerpon forms
+            if has_ogerpon:
+                remaining_pokemon = [p for p in remaining_pokemon if not is_ogerpon_form(p.name)]
+            
+            # If no more Pokémon available, break
+            if not remaining_pokemon:
+                break
+                
+            # Get the next Pokémon based on coverage requirements
+            builder.pokemon_list = remaining_pokemon
+            next_pokemon = builder.build_team()[0]  # Get just one Pokémon
+            team.append(next_pokemon)
+            
+            # Check if this is an Ogerpon form
+            if is_ogerpon_form(next_pokemon.name):
+                has_ogerpon = True
+        
+        # Generate output with the team
+        output = []
+        for pokemon in team:
+            build = pokemon.get_random_build()
+            output.append(build)
+        
+        team_output = "\n\n".join(output)
     
     # Write to output file
     with open("team_output.txt", "w") as f:
