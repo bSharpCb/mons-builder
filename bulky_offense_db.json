@@ -1,0 +1,2220 @@
+[
+  {
+    "name": "alomomola",
+    "types": [
+      "water"
+    ],
+    "builds": [
+      {
+        "build": "Alomomola @ Assault Vest\nAbility: Regenerator\nEVs: 20 HP / 236 Def / 252 SpD\nIVs: 0 Spe\nTera Type: Fairy\nSassy Nature\n- Flip Turn\n- Scald\n- Mirror Coat\n- Body Slam",
+        "roles": [
+          "Pivot",
+          "Special wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cinderace",
+    "types": [
+      "fire"
+    ],
+    "builds": [
+      {
+        "build": "Cinderace @ Heavy-Duty Boots\nAbility: Libero\nEVs: 252 Atk / 4 SpD / 252 Spe\nTera Type: Fire\nJolly Nature\n- Pyro Ball\n- U-turn\n- Court Change\n- Sucker Punch",
+        "roles": [
+          "Hazard Control",
+          "Pivot",
+          "Priority User"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "balance",
+          "hyper offense"
+        ]
+      },
+      {
+        "build": "Cinderace @ Heavy-Duty Boots\nAbility: Blaze\nEVs: 224 HP / 32 Atk / 252 Spe\nTera Type: Fire\nJolly Nature\n- Pyro Ball\n- U-turn\n- Court Change\n- Will-O-Wisp",
+        "roles": [
+          "Hazard Control",
+          "Pivot"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "balance",
+          "hyper offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "clefable",
+    "types": [
+      "fairy"
+    ],
+    "builds": [
+      {
+        "build": "Clefable @ Heavy-Duty Boots\nAbility: Unaware\nEVs: 252 HP / 252 Def / 4 SpD\nIVs: 0 Atk\nTera Type: Poison\nBold Nature\n- Calm Mind\n- Moonblast\n- Moonlight\n- Thunder Wave",
+        "roles": [
+          "Bulky Setup",
+          "Physical wall",
+          "Support",
+          "Unaware",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "darkrai",
+    "types": [
+      "dark"
+    ],
+    "builds": [
+      {
+        "build": "Darkrai @ Leftovers\nAbility: Bad Dreams\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Poison\nTimid Nature\n- Nasty Plot\n- Dark Pulse\n- Sludge Bomb\n- Ice Beam",
+        "roles": [
+          "Setup Sweeper",
+          "Wallbreaker",
+          "Fast"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Darkrai @ Choice Scarf\nAbility: Bad Dreams\nEVs: 252 SpA / 4 SpD / 252 Spe\nIVs: 0 Atk\nTera Type: Poison\nTimid Nature\n- Dark Pulse\n- Sludge Bomb\n- Ice Beam\n- Trick",
+        "roles": [
+          "Scarfer",
+          "Fast"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Darkrai @ Heavy-Duty Boots\nAbility: Bad Dreams\nEVs: 252 SpA / 4 SpD / 252 Spe\nIVs: 0 Atk\nTera Type: Poison\nTimid Nature\n- Dark Pulse\n- Ice Beam\n- Sludge Bomb\n- Will-O-Wisp",
+        "roles": [
+          "Support",
+          "Fast"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Darkrai @ Choice Specs\nAbility: Bad Dreams\nEVs: 252 SpA / 4 SpD / 252 Spe\nIVs: 0 Atk\nTera Type: Dark\nTimid Nature\n- Dark Pulse\n- Sludge Bomb\n- Focus Blast\n- Ice Beam",
+        "roles": [
+          "Wallbreaker",
+          "Fast"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Darkrai @ Life Orb\nAbility: Bad Dreams\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Poison\nTimid Nature\n- Dark Pulse\n- Sludge Bomb\n- Ice Beam\n- Focus Blast",
+        "roles": [
+          "Fast",
+          "Wallbreaker"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "deoxys-speed",
+    "types": [
+      "psychic"
+    ],
+    "builds": [
+      {
+        "build": "Deoxys-Speed @ Heavy-Duty Boots\nAbility: Pressure\nEVs: 200 Atk / 252 SpA / 56 Spe\nTera Type: Fighting\nNaive Nature\n- Psycho Boost\n- Superpower\n- Knock Off\n- Ice Beam",
+        "roles": [
+          "Fast"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Deoxys-Speed @ Life Orb\nAbility: Pressure\nEVs: 4 Def / 252 SpA / 252 Spe\nIVs: 0 Atk\nTera Type: Fighting\nModest Nature\n- Nasty Plot\n- Psycho Boost\n- Focus Blast\n- Shadow Ball",
+        "roles": [
+          "Setup Sweeper",
+          "Fast"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dondozo",
+    "types": [
+      "water"
+    ],
+    "builds": [
+      {
+        "build": "Dondozo @ Leftovers\nAbility: Unaware\nEVs: 252 HP / 252 Def / 4 SpD\nTera Type: Fighting\nImpish Nature\n- Waterfall\n- Curse\n- Rest\n- Sleep Talk",
+        "roles": [
+          "Physical wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dragapult",
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "builds": [
+      {
+        "build": "Dragapult @ Heavy-Duty Boots\nAbility: Infiltrator\nEVs: 60 Atk / 196 SpA / 252 Spe\nTera Type: Fairy\nNaive Nature\n- Dragon Darts\n- Hex\n- Will-O-Wisp\n- U-turn",
+        "roles": [
+          "Pivot",
+          "Support",
+          "Fast"
+        ],
+        "teamFit": [
+          "balance",
+          "offense",
+          "bulky offense",
+          "hyper offense"
+        ]
+      },
+      {
+        "build": "Dragapult @ Choice Specs\nAbility: Infiltrator\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Ghost\nTimid Nature\n- Draco Meteor\n- Shadow Ball\n- Flamethrower\n- U-turn",
+        "roles": [
+          "Wallbreaker",
+          "Pivot",
+          "Fast"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Dragapult @ Choice Band\nAbility: Clear Body\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Ghost\nJolly Nature\n- Dragon Darts\n- Tera Blast\n- U-turn\n- Sucker Punch",
+        "roles": [
+          "Wallbreaker",
+          "Pivot",
+          "Fast",
+          "Priority User"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dragonite",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Dragonite @ Heavy-Duty Boots\nAbility: Multiscale\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Normal\nAdamant Nature\n- Dragon Dance\n- Extreme Speed\n- Earthquake\n- Ice Spinner",
+        "roles": [
+          "Setup Sweeper",
+          "Priority User"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Dragonite @ Heavy-Duty Boots\nAbility: Multiscale\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Normal\nAdamant Nature\n- Dragon Dance\n- Extreme Speed\n- Earthquake\n- Ice Spinner",
+        "roles": [
+          "Setup Sweeper",
+          "Priority User",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Dragonite @ Heavy-Duty Boots\nAbility: Multiscale\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Flying\nJolly Nature\n- Dragon Dance\n- Tera Blast\n- Earthquake\n- Encore",
+        "roles": [
+          "Setup Sweeper",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Dragonite @ Heavy-Duty Boots\nAbility: Multiscale\nEVs: 252 HP / 240 Atk / 16 Spe\nTera Type: Normal\nAdamant Nature\n- Dragon Tail\n- Extreme Speed\n- Earthquake\n- Roost",
+        "roles": [
+          "Bulky",
+          "Phasing",
+          "Priority User"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "enamorus",
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Enamorus @ Choice Scarf\nAbility: Contrary\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Ground\nModest Nature\n- Moonblast\n- Earth Power\n- Mystical Fire\n- Healing Wish",
+        "roles": [
+          "Scarfer",
+          "Support"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Enamorus (F) @ Choice Specs\nAbility: Contrary\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Fairy\nTimid Nature\n- Moonblast\n- Earth Power\n- Mystical Fire\n- Healing Wish",
+        "roles": [
+          "Support",
+          "Wallbreaker"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Enamorus @ Leftovers\nAbility: Cute Charm\nEVs: 252 SpA / 4 SpD / 252 Spe\nIVs: 0 Atk\nTera Type: Ground\nTimid Nature\n- Calm Mind\n- Moonblast\n- Earth Power\n- Substitute",
+        "roles": [
+          "Bulky Setup",
+          "Stallbreaker",
+          "Support"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "garganacl",
+    "types": [
+      "rock"
+    ],
+    "builds": [
+      {
+        "build": "Garganacl @ Leftovers\nAbility: Purifying Salt\nEVs: 252 HP / 52 Def / 204 SpD\nTera Type: Fairy\nCareful Nature\n- Stealth Rock\n- Salt Cure\n- Recover\n- Protect",
+        "roles": [
+          "Hazard Setter",
+          "Physical wall",
+          "Special wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Garganacl @ Leftovers\nAbility: Purifying Salt\nEVs: 252 HP / 52 Def / 204 SpD\nTera Type: Water\nCareful Nature\n- Curse\n- Salt Cure\n- Recover\n- Earthquake",
+        "roles": [
+          "Physical wall",
+          "Special wall",
+          "Bulky Setup",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Garganacl @ Leftovers\nAbility: Purifying Salt\nEVs: 252 HP / 4 Def / 252 SpD\nTera Type: Water\nCareful Nature\n- Iron Defense\n- Body Press\n- Salt Cure\n- Recover",
+        "roles": [
+          "Physical wall",
+          "Special wall",
+          "Bulky Setup",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "gholdengo",
+    "types": [
+      "ghost",
+      "steel"
+    ],
+    "builds": [
+      {
+        "build": "Gholdengo @ Air Balloon\nAbility: Good as Gold\nEVs: 252 SpA / 4 SpD / 252 Spe\nIVs: 0 Atk\nTera Type: Fairy\nTimid Nature\n- Nasty Plot\n- Shadow Ball\n- Make It Rain\n- Focus Blast",
+        "roles": [
+          "Wallbreaker",
+          "Setup Sweeper",
+          "Support",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "offense",
+          "hyper offense"
+        ]
+      },
+      {
+        "build": "Gholdengo @ Air Balloon\nAbility: Good as Gold\nEVs: 252 HP / 196 Def / 60 Spe\nTera Type: Fairy\nBold Nature\n- Nasty Plot\n- Shadow Ball\n- Recover\n- Make It Rain",
+        "roles": [
+          "Bulky",
+          "Setup Sweeper",
+          "Wallbreaker",
+          "Support",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Gholdengo @ Air Balloon\nAbility: Good as Gold\nEVs: 252 HP / 196 Def / 60 Spe\nTera Type: Fairy\nBold Nature\n- Hex\n- Thunder Wave\n- Recover\n- Make It Rain",
+        "roles": [
+          "Bulky",
+          "Support"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "stall"
+        ]
+      },
+      {
+        "build": "Gholdengo @ Choice Scarf\nAbility: Good as Gold\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Fighting\nTimid Nature\n- Shadow Ball\n- Make It Rain\n- Trick\n- Focus Blast",
+        "roles": [
+          "Scarfer",
+          "Fast",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "gliscor",
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Gliscor @ Toxic Orb\nAbility: Poison Heal\nEVs: 244 HP / 36 Def / 228 SpD\nTera Type: Normal\nCareful Nature\n- Swords Dance\n- Facade\n- Knock Off\n- Protect",
+        "roles": [
+          "Setup Sweeper",
+          "Bulky",
+          "Bulky Setup",
+          "Special wall",
+          "Support",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "offense"
+        ]
+      },
+      {
+        "build": "Gliscor @ Toxic Orb\nAbility: Poison Heal\nEVs: 244 HP / 252 Def / 12 SpD\nTera Type: Normal\nImpish Nature\n- Swords Dance\n- Facade\n- Earthquake\n- Protect",
+        "roles": [
+          "Setup Sweeper",
+          "Bulky",
+          "Bulky Setup",
+          "Physical wall",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "offense"
+        ]
+      },
+      {
+        "build": "Gliscor @ Toxic Orb\nAbility: Poison Heal\nEVs: 244 HP / 252 Def / 12 SpD\nTera Type: Fairy\nImpish Nature\n- Spikes\n- Earthquake\n- U-turn\n- Protect",
+        "roles": [
+          "Hazard Setter",
+          "Support",
+          "Physical wall",
+          "Bulky",
+          "Pivot"
+        ],
+        "teamFit": [
+          "balance",
+          "stall",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "great-tusk",
+    "types": [
+      "ground",
+      "fighting"
+    ],
+    "builds": [
+      {
+        "build": "Great Tusk @ Heavy-Duty Boots\nAbility: Protosynthesis\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Steel\nJolly Nature\n- Headlong Rush\n- Ice Spinner\n- Rapid Spin\n- Stealth Rock",
+        "roles": [
+          "Hazard Setter",
+          "Hazard Control",
+          "Support"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "offense"
+        ]
+      },
+      {
+        "build": "Great Tusk @ Rocky Helmet\nAbility: Protosynthesis\nEVs: 252 HP / 4 Atk / 252 Spe\nTera Type: Water\nJolly Nature\n- Headlong Rush\n- Ice Spinner\n- Rapid Spin\n- Stealth Rock",
+        "roles": [
+          "Hazard Setter",
+          "Hazard Control",
+          "Support",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "offense"
+        ]
+      },
+      {
+        "build": "Great Tusk @ Booster Energy\nAbility: Protosynthesis\nEVs: 252 HP / 4 Atk / 252 Spe\nTera Type: Ice\nJolly Nature\n- Bulk Up\n- Headlong Rush\n- Ice Spinner\n- Rapid Spin",
+        "roles": [
+          "Hazard Control",
+          "Bulky Setup",
+          "Setup Sweeper"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "hyper offense",
+          "offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hatterene",
+    "types": [
+      "fairy",
+      "psychic"
+    ],
+    "builds": [
+      {
+        "build": "Hatterene (F) @ Rocky Helmet\nAbility: Magic Bounce\nEVs: 252 HP / 204 Def / 52 Spe\nTera Type: Water\nBold Nature\n- Psychic Noise\n- Draining Kiss\n- Pain Split\n- Nuzzle",
+        "roles": [
+          "Support",
+          "Hazard Control",
+          "Physical wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "offense",
+          "hyper offense",
+          "balance",
+          "stall"
+        ]
+      },
+      {
+        "build": "Hatterene @ Leftovers\nAbility: Magic Bounce\nEVs: 252 HP / 204 Def / 52 Spe\nTera Type: Water\nBold Nature\n- Calm Mind\n- Draining Kiss\n- Psychic Noise\n- Mystical Fire",
+        "roles": [
+          "Bulky Setup",
+          "Support",
+          "Hazard Control",
+          "Physical wall",
+          "Bulky",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "offense",
+          "hyper offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Hatterene @ Eject Button\nAbility: Magic Bounce\nEVs: 252 HP / 204 Def / 52 Spe\nTera Type: Steel\nBold Nature\n- Healing Wish\n- Psychic Noise\n- Dazzling Gleam\n- Nuzzle",
+        "roles": [
+          "Support",
+          "Hazard Control",
+          "Physical wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Hatterene @ Assault Vest\nAbility: Magic Bounce\nEVs: 252 HP / 100 SpA / 104 SpD / 52 Spe\nIVs: 0 Atk\nTera Type: Water\nModest Nature\n- Psyshock\n- Draining Kiss\n- Mystical Fire\n- Nuzzle",
+        "roles": [
+          "Support",
+          "Special wall",
+          "Bulky",
+          "Hazard Control"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "heatran",
+    "types": [
+      "fire",
+      "steel"
+    ],
+    "builds": [
+      {
+        "build": "Heatran @ Leftovers\nAbility: Flash Fire\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Grass\nTimid Nature\n- Magma Storm\n- Earth Power\n- Taunt\n- Stealth Rock",
+        "roles": [
+          "Hazard Setter",
+          "Stallbreaker",
+          "Bulky",
+          "Support"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Heatran @ Leftovers\nAbility: Flash Fire\nEVs: 252 HP / 4 Def / 212 SpD / 40 Spe\nTera Type: Grass\nCalm Nature\n- Magma Storm\n- Earth Power\n- Taunt\n- Stealth Rock",
+        "roles": [
+          "Hazard Setter",
+          "Stallbreaker",
+          "Bulky",
+          "Support"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "iron-crown",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "builds": [
+      {
+        "build": "Iron Crown @ Choice Specs\nAbility: Quark Drive\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Steel\nTimid Nature\n- Tachyon Cutter\n- Psyshock\n- Volt Switch\n- Focus Blast",
+        "roles": [
+          "Wallbreaker",
+          "Pivot"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Iron Crown @ Assault Vest\nAbility: Quark Drive\nEVs: 252 SpA / 4 SpD / 252 Spe\nIVs: 20 Atk\nTera Type: Fighting\nTimid Nature\n- Tachyon Cutter\n- Future Sight\n- Focus Blast\n- Volt Switch",
+        "roles": [
+          "Pivot",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Iron Crown @ Booster Energy\nAbility: Quark Drive\nEVs: 84 HP / 172 SpA / 252 Spe\nIVs: 20 Atk\nTera Type: Fighting\nTimid Nature\n- Calm Mind\n- Tachyon Cutter\n- Psyshock\n- Focus Blast",
+        "roles": [
+          "Bulky Setup",
+          "Bulky"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "iron-treads",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "builds": [
+      {
+        "build": "Iron Treads @ Leftovers\nAbility: Quark Drive\nEVs: 252 Atk / 4 SpD / 252 Spe\nTera Type: Ghost\nJolly Nature\n- Stealth Rock\n- Earthquake\n- Knock Off\n- Rapid Spin",
+        "roles": [
+          "Hazard Setter",
+          "Hazard Control",
+          "Support",
+          "Bulky"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "iron-valiant",
+    "types": [
+      "fairy",
+      "fighting"
+    ],
+    "builds": [
+      {
+        "build": "Iron Valiant @ Booster Energy\nAbility: Quark Drive\nEVs: 4 Atk / 252 SpA / 252 Spe\nTera Type: Steel\nNaive Nature\n- Moonblast\n- Close Combat\n- Knock Off\n- Encore",
+        "roles": [
+          "Stallbreaker",
+          "Fast",
+          "Speed Booster"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "offense",
+          "hyper offense"
+        ]
+      },
+      {
+        "build": "Iron Valiant @ Booster Energy\nAbility: Quark Drive\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Dark\nJolly Nature\n- Swords Dance\n- Close Combat\n- Knock Off\n- Encore",
+        "roles": [
+          "Setup Sweeper",
+          "Wallbreaker",
+          "Stallbreaker",
+          "Fast"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "offense",
+          "hyper offense"
+        ]
+      },
+      {
+        "build": "Iron Valiant @ Choice Specs\nAbility: Quark Drive\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Fairy\nTimid Nature\n- Moonblast\n- Shadow Ball\n- Thunderbolt\n- Trick",
+        "roles": [
+          "Wallbreaker",
+          "Fast",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kingambit",
+    "types": [
+      "steel",
+      "dark"
+    ],
+    "builds": [
+      {
+        "build": "Kingambit @ Leftovers\nAbility: Supreme Overlord\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Ghost\nAdamant Nature\n- Swords Dance\n- Sucker Punch\n- Kowtow Cleave\n- Iron Head",
+        "roles": [
+          "Setup Sweeper",
+          "Bulky Setup",
+          "Wallbreaker",
+          "Support",
+          "Bulky",
+          "Priority User"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "offense",
+          "hyper offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kyurem",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "builds": [
+      {
+        "build": "Kyurem @ Choice Specs\nAbility: Pressure\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Ice\nTimid Nature\n- Ice Beam\n- Freeze-Dry\n- Draco Meteor\n- Earth Power",
+        "roles": [
+          "Wallbreaker",
+          "Bulky"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "hyper offense"
+        ]
+      },
+      {
+        "build": "Kyurem @ Loaded Dice\nAbility: Pressure\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Fire\nJolly Nature\n- Dragon Dance\n- Icicle Spear\n- Tera Blast\n- Scale Shot",
+        "roles": [
+          "Setup Sweeper",
+          "Bulky",
+          "Bulky Setup"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "offense",
+          "hyper offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Kyurem @ Never-Melt Ice\nAbility: Pressure\nEVs: 168 Atk / 88 SpA / 252 Spe\nTera Type: Ice\nHasty Nature\n- Dragon Dance\n- Icicle Spear\n- Freeze-Dry\n- Earth Power",
+        "roles": [
+          "Setup Sweeper",
+          "Bulky",
+          "Bulky Setup"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "offense",
+          "hyper offense"
+        ]
+      },
+      {
+        "build": "Kyurem @ Leftovers\nAbility: Pressure\nEVs: 52 HP / 204 SpA / 252 Spe\nTera Type: Ground\nTimid Nature\n- Substitute\n- Protect\n- Freeze-Dry\n- Earth Power",
+        "roles": [
+          "Setup Sweeper",
+          "Bulky",
+          "Bulky Setup",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "landorus-therian",
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Landorus-Therian @ Rocky Helmet\nAbility: Intimidate\nEVs: 252 HP / 4 Def / 252 Spe\nTera Type: Water\nTimid Nature\n- Stealth Rock\n- Earth Power\n- U-turn\n- Taunt",
+        "roles": [
+          "Hazard Setter",
+          "Pivot",
+          "Bulky"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Landorus-Therian (M) @ Soft Sand\nAbility: Intimidate\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Ground\nJolly Nature\n- Stealth Rock\n- Earthquake\n- Stone Edge\n- U-turn",
+        "roles": [
+          "Hazard Setter",
+          "Pivot",
+          "Wallbreaker"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Landorus-Therian (M) @ Choice Scarf\nAbility: Intimidate\nEVs: 252 Atk / 4 SpA / 252 Spe\nTera Type: Ground\nNaive Nature\n- Earthquake\n- Stone Edge\n- U-turn\n- Grass Knot",
+        "roles": [
+          "Scarfer",
+          "Pivot"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "moltres",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Moltres @ Heavy-Duty Boots\nAbility: Flame Body\nEVs: 248 HP / 248 Def / 12 Spe\nTera Type: Fairy\nBold Nature\n- Flamethrower\n- Roost\n- U-turn\n- Roar",
+        "roles": [
+          "Pivot",
+          "Physical wall",
+          "Bulky",
+          "Phasing",
+          "Support"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ogerpon-wellspring",
+    "types": [
+      "grass",
+      "water"
+    ],
+    "builds": [
+      {
+        "build": "Ogerpon-Wellspring (F) @ Wellspring Mask\nAbility: Water Absorb\nEVs: 252 Atk / 4 SpD / 252 Spe\nTera Type: Water\nJolly Nature\n- Ivy Cudgel\n- U-turn\n- Knock Off\n- Spikes",
+        "roles": [
+          "Hazard Setter",
+          "Pivot",
+          "Support",
+          "Fast"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "offense"
+        ]
+      },
+      {
+        "build": "Ogerpon-Wellspring @ Wellspring Mask\nAbility: Water Absorb\nEVs: 252 Atk / 4 SpD / 252 Spe\nTera Type: Water\nJolly Nature\n- Swords Dance\n- Ivy Cudgel\n- Power Whip\n- Play Rough",
+        "roles": [
+          "Setup Sweeper",
+          "Wallbreaker",
+          "Fast"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Ogerpon-Wellspring @ Wellspring Mask\nAbility: Water Absorb\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Water\nJolly Nature\n- Ivy Cudgel\n- Power Whip\n- Play Rough\n- Knock Off",
+        "roles": [
+          "Support",
+          "Fast",
+          "Wallbreaker"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pecharunt",
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "builds": [
+      {
+        "build": "Pecharunt @ Heavy-Duty Boots\nAbility: Poison Puppeteer\nEVs: 252 HP / 228 Def / 28 Spe\nIVs: 0 Atk\nTera Type: Dark\nBold Nature\n- Malignant Chain\n- Foul Play\n- Parting Shot\n- Recover",
+        "roles": [
+          "Pivot",
+          "Support",
+          "Physical wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "offense",
+          "hyper offense",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "primarina",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "builds": [
+      {
+        "build": "Primarina @ Assault Vest\nAbility: Torrent\nEVs: 80 HP / 252 SpA / 176 Spe\nTera Type: Poison\nModest Nature\n- Moonblast\n- Psychic Noise\n- Surf\n- Flip Turn",
+        "roles": [
+          "Pivot",
+          "Bulky",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance",
+          "offense"
+        ]
+      },
+      {
+        "build": "Primarina @ Leftovers\nAbility: Liquid Voice\nEVs: 252 HP / 248 Def / 8 SpD\nIVs: 0 Atk\nTera Type: Steel\nBold Nature\n- Calm Mind\n- Psychic Noise\n- Draining Kiss\n- Substitute",
+        "roles": [
+          "Bulky Setup",
+          "Bulky",
+          "Stallbreaker",
+          "Physical wall"
+        ],
+        "teamFit": [
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "raging-bolt",
+    "types": [
+      "dragon",
+      "electric"
+    ],
+    "builds": [
+      {
+        "build": "Raging Bolt @ Booster Energy\nAbility: Protosynthesis\nEVs: 4 Def / 252 SpA / 252 Spe\nIVs: 20 Atk\nTera Type: Fairy\nModest Nature\n- Calm Mind\n- Thunderclap\n- Dragon Pulse\n- Thunderbolt",
+        "roles": [
+          "Setup Sweeper",
+          "Priority User",
+          "Bulky",
+          "Wallbreaker",
+          "Bulky Setup",
+          "Sun Abuser"
+        ],
+        "teamFit": [
+          "offense",
+          "hyper offense",
+          "bulky offense",
+          "Sun",
+          "Rain"
+        ]
+      },
+      {
+        "build": "Raging Bolt @ Choice Specs\nAbility: Protosynthesis\nEVs: 4 Def / 252 SpA / 252 Spe\nIVs: 20 Atk\nTera Type: Fairy\nModest Nature\n- Thunderbolt\n- Draco Meteor\n- Thunderclap\n- Volt Switch",
+        "roles": [
+          "Wallbreaker",
+          "Pivot",
+          "Priority User",
+          "Bulky",
+          "Sun Abuser"
+        ],
+        "teamFit": [
+          "Sun",
+          "Rain",
+          "offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Raging Bolt @ Heavy-Duty Boots\nAbility: Protosynthesis\nEVs: 4 Def / 252 SpA / 252 Spe\nIVs: 20 Atk\nTera Type: Fairy\nModest Nature\n- Thunderbolt\n- Thunderclap\n- Volt Switch\n- Dragon Pulse",
+        "roles": [
+          "Pivot",
+          "Priority User",
+          "Bulky Setup",
+          "Sun Abuser"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "Sun"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "samurott-hisui",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "builds": [
+      {
+        "build": "Samurott-Hisui @ Assault Vest\nAbility: Sharpness\nEVs: 248 HP / 84 Atk / 124 SpD / 52 Spe\nTera Type: Poison\nAdamant Nature\n- Ceaseless Edge\n- Razor Shell\n- Sucker Punch\n- Knock Off",
+        "roles": [
+          "Pivot",
+          "Bulky",
+          "Hazard Setter"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Samurott-Hisui @ Heavy-Duty Boots\nAbility: Sharpness\nEVs: 252 Atk / 4 SpD / 252 Spe\nTera Type: Poison\nJolly Nature\n- Ceaseless Edge\n- Razor Shell\n- Knock Off\n- Encore",
+        "roles": [
+          "Hazard Setter",
+          "Support",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Samurott-Hisui @ Choice Scarf\nAbility: Sharpness\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Water\nJolly Nature\n- Ceaseless Edge\n- Razor Shell\n- Knock Off\n- Flip Turn",
+        "roles": [
+          "Scarfer",
+          "Pivot",
+          "Hazard Setter",
+          "Support"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "scizor",
+    "types": [
+      "steel",
+      "bug"
+    ],
+    "builds": [
+      {
+        "build": "Scizor @ Choice Band\nAbility: Technician\nEVs: 120 HP / 252 Atk / 136 Spe\nTera Type: Steel\nAdamant Nature\n- Bullet Punch\n- U-turn\n- Knock Off\n- Close Combat",
+        "roles": [
+          "Wallbreaker",
+          "Pivot",
+          "Priority User",
+          "Bulky"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "hyper offense"
+        ]
+      },
+      {
+        "build": "Scizor @ Sitrus Berry\nAbility: Technician\nEVs: 248 HP / 252 Atk / 8 SpD\nTera Type: Steel\nAdamant Nature\n- Bullet Punch\n- U-turn\n- Knock Off\n- Defog",
+        "roles": [
+          "Hazard Control",
+          "Pivot",
+          "Support",
+          "Priority User"
+        ],
+        "teamFit": [
+          "balance",
+          "stall",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slowking-galar",
+    "types": [
+      "psychic",
+      "poison"
+    ],
+    "builds": [
+      {
+        "build": "Slowking-Galar @ Heavy-Duty Boots\nAbility: Regenerator\nEVs: 252 HP / 8 Def / 248 SpD\nIVs: 0 Spe\nTera Type: Water\nSassy Nature\n- Chilly Reception\n- Sludge Bomb\n- Future Sight\n- Thunder Wave",
+        "roles": [
+          "Bulky",
+          "Pivot",
+          "Special wall",
+          "Support"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Slowking-Galar @ Assault Vest\nAbility: Regenerator\nEVs: 252 HP / 8 Def / 152 SpA / 96 SpD\nTera Type: Water\nModest Nature\n- Psyshock\n- Sludge Bomb\n- Flamethrower\n- Ice Beam",
+        "roles": [
+          "Bulky",
+          "Special wall",
+          "Support"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ting-lu",
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "builds": [
+      {
+        "build": "Ting-Lu @ Leftovers\nAbility: Vessel of Ruin\nEVs: 252 HP / 4 Def / 252 SpD\nTera Type: Water\nCareful Nature\n- Stealth Rock\n- Earthquake\n- Ruination\n- Whirlwind",
+        "roles": [
+          "Hazard Setter",
+          "Phasing",
+          "Support",
+          "Special wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tornadus-therian",
+    "types": [
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Tornadus-Therian @ Life Orb\nAbility: Regenerator\nEVs: 252 SpA / 4 SpD / 252 Spe\nIVs: 0 Atk\nTera Type: Steel\nTimid Nature\n- Nasty Plot\n- Bleakwind Storm\n- Heat Wave\n- Grass Knot",
+        "roles": [
+          "Setup Sweeper",
+          "Fast",
+          "Wallbreaker",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Tornadus-Therian @ Heavy-Duty Boots\nAbility: Regenerator\nEVs: 252 HP / 4 SpD / 252 Spe\nTera Type: Steel\nTimid Nature\n- Bleakwind Storm\n- U-turn\n- Knock Off\n- Heat Wave",
+        "roles": [
+          "Pivot",
+          "Bulky",
+          "Support"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "walking-wake",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "builds": [
+      {
+        "build": "Walking Wake @ Choice Specs\nAbility: Protosynthesis\nEVs: 12 HP / 244 SpA / 252 Spe\nTera Type: Water\nTimid Nature\n- Hydro Steam\n- Draco Meteor\n- Flamethrower\n- Flip Turn",
+        "roles": [
+          "Wallbreaker",
+          "Sun Abuser",
+          "Rain Abuser"
+        ],
+        "teamFit": [
+          "Sun",
+          "Rain",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Walking Wake @ Heavy-Duty Boots\nAbility: Protosynthesis\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Fairy\nTimid Nature\n- Scald\n- Draco Meteor\n- Knock Off\n- Flip Turn",
+        "roles": [
+          "Pivot",
+          "Support"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zamazenta",
+    "types": [
+      "fighting"
+    ],
+    "builds": [
+      {
+        "build": "Zamazenta @ Leftovers\nAbility: Dauntless Shield\nEVs: 252 HP / 88 Def / 168 Spe\nTera Type: Fire\nJolly Nature\n- Iron Defense\n- Body Press\n- Crunch\n- Roar",
+        "roles": [
+          "Fast",
+          "Bulky",
+          "Bulky Setup",
+          "Setup Sweeper",
+          "Phasing"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "hyper offense"
+        ]
+      },
+      {
+        "build": "Zamazenta @ Life Orb\nAbility: Dauntless Shield\nEVs: 252 Atk / 4 SpD / 252 Spe\nTera Type: Dark\nJolly Nature\n- Close Combat\n- Crunch\n- Heavy Slam\n- Stone Edge",
+        "roles": [
+          "Wallbreaker",
+          "Fast"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zapdos",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Zapdos @ Heavy-Duty Boots\nAbility: Static\nEVs: 4 Def / 252 SpA / 252 Spe\nIVs: 0 Atk\nTera Type: Fire\nTimid Nature\n- Hurricane\n- Volt Switch\n- Heat Wave\n- Roost",
+        "roles": [
+          "Pivot",
+          "Bulky",
+          "Wallbreaker",
+          "Rain Abuser"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense",
+          "Rain"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "arcanine-hisui",
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "builds": [
+      {
+        "build": "Arcanine-Hisui @ Choice Band\nAbility: Rock Head\nEVs: 252 Atk / 4 SpD / 252 Spe\nTera Type: Normal\nJolly Nature\n- Head Smash\n- Flare Blitz\n- Extreme Speed\n- Close Combat",
+        "roles": [
+          "Wallbreaker",
+          "Priority User"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chesnaught",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "builds": [
+      {
+        "build": "Chesnaught @ Rocky Helmet\nAbility: Bulletproof\nEVs: 252 HP / 252 Def / 4 SpD\nTera Type: Ghost\nImpish Nature\n- Body Press\n- Knock Off\n- Synthesis\n- Spikes",
+        "roles": [
+          "Hazard Setter",
+          "Physical wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "comfey",
+    "types": [
+      "fairy"
+    ],
+    "builds": [
+      {
+        "build": "Comfey @ Life Orb\nAbility: Triage\nEVs: 252 HP / 4 Def / 252 SpA\nTera Type: Ground\nModest Nature\n- Calm Mind\n- Draining Kiss\n- Tera Blast\n- Stored Power",
+        "roles": [
+          "Bulky Setup",
+          "Bulky",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "balance",
+          "offense",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "enamorus-therian",
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Enamorus-Therian @ Leftovers\nAbility: Overcoat\nEVs: 248 HP / 8 Def / 252 SpA\nTera Type: Ground\nModest Nature\n- Calm Mind\n- Moonblast\n- Earth Power\n- Mystical Fire",
+        "roles": [
+          "Bulky Setup",
+          "Stallbreaker",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "garchomp",
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "builds": [
+      {
+        "build": "Garchomp @ Rocky Helmet\nAbility: Rough Skin\nEVs: 252 HP / 216 Def / 40 Spe\nTera Type: Ghost\nImpish Nature\n- Earthquake\n- Dragon Tail\n- Stealth Rock\n- Spikes",
+        "roles": [
+          "Hazard Setter",
+          "Support",
+          "Bulky",
+          "Physical wall",
+          "Phasing"
+        ],
+        "teamFit": [
+          "balance",
+          "offense",
+          "bulky offense",
+          "hyper offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "grimmsnarl",
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "builds": [
+      {
+        "build": "Grimmsnarl @ Light Clay\nAbility: Prankster\nEVs: 252 HP / 4 Def / 252 SpD\nTera Type: Steel\nCareful Nature\n- Reflect\n- Light Screen\n- Spirit Break\n- Parting Shot",
+        "roles": [
+          "Pivot",
+          "Screens",
+          "Support"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "hyper offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hawlucha",
+    "types": [
+      "flying",
+      "fighting"
+    ],
+    "builds": [
+      {
+        "build": "Hawlucha @ Grassy Seed\nAbility: Unburden\nEVs: 72 HP / 252 Atk / 60 SpD / 124 Spe\nTera Type: Flying\nAdamant Nature\n- Swords Dance\n- Close Combat\n- Acrobatics\n- Encore",
+        "roles": [
+          "Setup Sweeper",
+          "Stallbreaker",
+          "Fast"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "offense",
+          "hyper offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hoopa-unbound",
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "builds": [
+      {
+        "build": "Hoopa-Unbound @ Assault Vest\nAbility: Magician\nEVs: 252 HP / 180 Def / 76 SpA\nTera Type: Fairy\nQuiet Nature\n- Knock Off\n- Psychic Noise\n- Drain Punch\n- Thunderbolt",
+        "roles": [
+          "Stallbreaker",
+          "Support",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hydrapple",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "builds": [
+      {
+        "build": "Hydrapple @ Heavy-Duty Boots\nAbility: Regenerator\nEVs: 248 HP / 248 Def / 12 Spe\nIVs: 0 Atk\nTera Type: Fairy\nBold Nature\n- Nasty Plot\n- Fickle Beam\n- Giga Drain\n- Earth Power",
+        "roles": [
+          "Bulky",
+          "Bulky Setup",
+          "Physical wall",
+          "Support"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hydreigon",
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "builds": [
+      {
+        "build": "Hydreigon @ Leftovers\nAbility: Levitate\nEVs: 252 SpA / 4 SpD / 252 Spe\nIVs: 0 Atk\nTera Type: Steel\nTimid Nature\n- Nasty Plot\n- Draco Meteor\n- Flash Cannon\n- Substitute",
+        "roles": [
+          "Wallbreaker",
+          "Setup Sweeper",
+          "Bulky Setup",
+          "Bulky",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "iron-hands",
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "builds": [
+      {
+        "build": "Iron Hands @ Booster Energy\nAbility: Quark Drive\nEVs: 252 Atk / 172 SpD / 84 Spe\nTera Type: Flying\nAdamant Nature\n- Swords Dance\n- Drain Punch\n- Thunder Punch\n- Ice Punch",
+        "roles": [
+          "Sun Abuser",
+          "Bulky",
+          "Bulky Setup",
+          "Wallbreaker",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "hyper offense",
+          "bulky offense",
+          "Sun"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "iron-jugulis",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Iron Jugulis @ Booster Energy\nAbility: Quark Drive\nEVs: 4 Def / 252 SpA / 252 Spe\nTera Type: Ground\nTimid Nature\n- Hurricane\n- Dark Pulse\n- Earth Power\n- Taunt",
+        "roles": [
+          "Stallbreaker",
+          "Speed Booster",
+          "Rain Abuser",
+          "Bulky",
+          "Fast"
+        ],
+        "teamFit": [
+          "Rain",
+          "offense",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "keldeo",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "builds": [
+      {
+        "build": "Keldeo @ Heavy-Duty Boots\nAbility: Justified\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Water\nTimid Nature\n- Surf\n- Aura Sphere\n- Vacuum Wave\n- Flip Turn",
+        "roles": [
+          "Pivot",
+          "Priority User",
+          "Fast"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Keldeo @ Choice Specs\nAbility: Justified\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Water\nTimid Nature\n- Surf\n- Secret Sword\n- Vacuum Wave\n- Flip Turn",
+        "roles": [
+          "Wallbreaker",
+          "Pivot",
+          "Fast",
+          "Priority User"
+        ],
+        "teamFit": [
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "latios",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "builds": [
+      {
+        "build": "Latios (M) @ Soul Dew\nAbility: Levitate\nEVs: 4 Def / 252 SpA / 252 Spe\nTera Type: Steel\nTimid Nature\n- Draco Meteor\n- Psychic Noise\n- Calm Mind\n- Recover",
+        "roles": [
+          "Setup Sweeper",
+          "Wallbreaker",
+          "Stallbreaker",
+          "Fast",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Latios @ Choice Specs\nAbility: Levitate\nEVs: 252 SpA / 4 SpD / 252 Spe\nIVs: 0 Atk\nTera Type: Dragon\nTimid Nature\n- Draco Meteor\n- Luster Purge\n- Aura Sphere\n- Flip Turn",
+        "roles": [
+          "Wallbreaker",
+          "Fast",
+          "Pivot",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Latios (M) @ Choice Scarf\nAbility: Levitate\nEVs: 252 SpA / 4 SpD / 252 Spe\nIVs: 0 Atk\nTera Type: Steel\nTimid Nature\n- Draco Meteor\n- Psychic Noise\n- Aura Sphere\n- Trick",
+        "roles": [
+          "Scarfer",
+          "Fast",
+          "Bulky",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "lokix",
+    "types": [
+      "bug",
+      "dark"
+    ],
+    "builds": [
+      {
+        "build": "Lokix @ Choice Band\nAbility: Tinted Lens\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Bug\nAdamant Nature\n- First Impression\n- U-turn\n- Knock Off\n- Leech Life",
+        "roles": [
+          "Wallbreaker",
+          "Pivot",
+          "Priority User"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      },
+      {
+        "build": "Lokix @ Heavy-Duty Boots\nAbility: Tinted Lens\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Bug\nAdamant Nature\n- First Impression\n- Knock Off\n- U-turn\n- Sucker Punch",
+        "roles": [
+          "Wallbreaker",
+          "Pivot",
+          "Priority User"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "magnezone",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "builds": [
+      {
+        "build": "Magnezone @ Choice Specs\nAbility: Magnet Pull\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Fighting\nModest Nature\n- Thunderbolt\n- Flash Cannon\n- Volt Switch\n- Tera Blast",
+        "roles": [
+          "Wallbreaker",
+          "Pivot"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mamoswine",
+    "types": [
+      "ground",
+      "ice"
+    ],
+    "builds": [
+      {
+        "build": "Mamoswine @ Choice Band\nAbility: Thick Fat\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Ice\nAdamant Nature\n- Icicle Crash\n- Earthquake\n- Ice Shard\n- Knock Off",
+        "roles": [
+          "Wallbreaker",
+          "Bulky",
+          "Priority User"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "meowscarada",
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "builds": [
+      {
+        "build": "Meowscarada @ Choice Scarf\nAbility: Protean\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Ghost\nJolly Nature\n- Knock Off\n- U-turn\n- Triple Axel\n- Flower Trick",
+        "roles": [
+          "Scarfer",
+          "Pivot"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Meowscarada @ Choice Band\nAbility: Protean\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Grass\nJolly Nature\n- Flower Trick\n- Knock Off\n- U-turn\n- Triple Axel",
+        "roles": [
+          "Wallbreaker",
+          "Pivot"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ogerpon",
+    "types": [
+      "grass"
+    ],
+    "builds": [
+      {
+        "build": "Ogerpon (F) @ Heavy-Duty Boots\nAbility: Defiant\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Grass\nJolly Nature\n- Ivy Cudgel\n- Knock Off\n- U-turn\n- Encore",
+        "roles": [
+          "Pivot",
+          "Wallbreaker",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Ogerpon (F) @ Choice Band\nAbility: Defiant\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Grass\nJolly Nature\n- Ivy Cudgel\n- Knock Off\n- U-turn\n- Low Kick",
+        "roles": [
+          "Wallbreaker",
+          "Pivot"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ogerpon-cornerstone",
+    "types": [
+      "grass",
+      "rock"
+    ],
+    "builds": [
+      {
+        "build": "Ogerpon-Cornerstone @ Cornerstone Mask\nAbility: Sturdy\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Rock\nJolly Nature\n- Swords Dance\n- Ivy Cudgel\n- Power Whip\n- Low Kick",
+        "roles": [
+          "Setup Sweeper",
+          "Wallbreaker"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "okidogi",
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "builds": [
+      {
+        "build": "Okidogi @ Leftovers\nAbility: Guard Dog\nEVs: 252 HP / 160 SpD / 96 Spe\nTera Type: Water\nCareful Nature\n- Bulk Up\n- Drain Punch\n- Knock Off\n- Ice Punch",
+        "roles": [
+          "Bulky Setup",
+          "Bulky",
+          "Support"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "quaquaval",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "builds": [
+      {
+        "build": "Quaquaval @ Assault Vest\nAbility: Moxie\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Steel\nAdamant Nature\n- Close Combat\n- Aqua Step\n- Knock Off\n- Rapid Spin",
+        "roles": [
+          "Hazard Control",
+          "Setup Sweeper",
+          "Fast",
+          "Support"
+        ],
+        "teamFit": [
+          "offense",
+          "Rain",
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "reuniclus",
+    "types": [
+      "psychic"
+    ],
+    "builds": [
+      {
+        "build": "Reuniclus @ Life Orb\nAbility: Magic Guard\nEVs: 252 HP / 212 SpA / 44 Spe\nTera Type: Fighting\nModest Nature\n- Psychic Noise\n- Knock Off\n- Focus Blast\n- Recover",
+        "roles": [
+          "Stallbreaker",
+          "Bulky",
+          "Support",
+          "Wallbreaker"
+        ],
+        "teamFit": [
+          "offense",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rotom-wash",
+    "types": [
+      "water",
+      "electric"
+    ],
+    "builds": [
+      {
+        "build": "Rotom-Wash @ Leftovers\nAbility: Levitate\nEVs: 252 HP / 212 Def / 44 Spe\nTera Type: Steel\nBold Nature\n- Volt Switch\n- Hydro Pump\n- Pain Split\n- Will-O-Wisp",
+        "roles": [
+          "Pivot",
+          "Support",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sandy-shocks",
+    "types": [
+      "electric",
+      "ground"
+    ],
+    "builds": [
+      {
+        "build": "Sandy Shocks @ Heavy-Duty Boots\nAbility: Protosynthesis\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Ice\nTimid Nature\n- Volt Switch\n- Earth Power\n- Tera Blast\n- Spikes",
+        "roles": [
+          "Hazard Setter",
+          "Pivot",
+          "Sun Abuser"
+        ],
+        "teamFit": [
+          "Sun",
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "skeledirge",
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "builds": [
+      {
+        "build": "Skeledirge @ Heavy-Duty Boots\nAbility: Unaware\nEVs: 248 HP / 8 Def / 252 SpD\nTera Type: Fairy\nCalm Nature\n- Torch Song\n- Hex\n- Will-O-Wisp\n- Slack Off",
+        "roles": [
+          "Support",
+          "Unaware",
+          "Bulky",
+          "Physical wall",
+          "Special wall"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slither-wing",
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "builds": [
+      {
+        "build": "Slither Wing @ Heavy-Duty Boots\nAbility: Protosynthesis\nEVs: 252 HP / 28 Atk / 220 Def / 8 Spe\nTera Type: Steel\nImpish Nature\n- First Impression\n- U-turn\n- Morning Sun\n- Will-O-Wisp",
+        "roles": [
+          "Pivot",
+          "Priority User",
+          "Support",
+          "Bulky",
+          "Physical wall"
+        ],
+        "teamFit": [
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slowking",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "builds": [
+      {
+        "build": "Slowking @ Heavy-Duty Boots\nAbility: Regenerator\nEVs: 252 HP / 4 Def / 252 SpD\nIVs: 0 Atk / 0 Spe\nTera Type: Fairy\nSassy Nature\n- Scald\n- Future Sight\n- Chilly Reception\n- Thunder Wave",
+        "roles": [
+          "Special wall",
+          "Pivot",
+          "Bulky",
+          "Support"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance",
+          "offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "thundurus-therian",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Thundurus-Therian @ Heavy-Duty Boots\nAbility: Volt Absorb\nEVs: 252 SpA / 4 SpD / 252 Spe\nTera Type: Fairy\nTimid Nature\n- Nasty Plot\n- Thunderbolt\n- Tera Blast\n- Grass Knot",
+        "roles": [
+          "Wallbreaker",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tinkaton",
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "builds": [
+      {
+        "build": "Tinkaton @ Air Balloon\nAbility: Pickpocket\nEVs: 252 HP / 24 SpD / 232 Spe\nTera Type: Water\nJolly Nature\n- Stealth Rock\n- Gigaton Hammer\n- Encore\n- Thunder Wave",
+        "roles": [
+          "Hazard Setter",
+          "Support"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tyranitar",
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "builds": [
+      {
+        "build": "Tyranitar @ Choice Band\nAbility: Sand Stream\nEVs: 252 Atk / 4 SpD / 252 Spe\nTera Type: Flying\nAdamant Nature\n- Knock Off\n- Stone Edge\n- Low Kick\n- Ice Punch",
+        "roles": [
+          "Wallbreaker",
+          "Sand Setter",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance",
+          "Sand"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ursaluna",
+    "types": [
+      "normal"
+    ],
+    "builds": [
+      {
+        "build": "Ursaluna @ Flame Orb\nAbility: Guts\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Normal\nAdamant Nature\n- Swords Dance\n- Facade\n- Headlong Rush\n- Fire Punch",
+        "roles": [
+          "Setup Sweeper",
+          "Wallbreaker",
+          "Stallbreaker",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "volcanion",
+    "types": [
+      "water",
+      "fire"
+    ],
+    "builds": [
+      {
+        "build": "Volcanion @ Choice Specs\nAbility: Water Absorb\nEVs: 4 Def / 252 SpA / 252 Spe\nTera Type: Ground\nModest Nature\n- Steam Eruption\n- Flamethrower\n- Earth Power\n- Sludge Bomb",
+        "roles": [
+          "Wallbreaker",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "weavile",
+    "types": [
+      "ice",
+      "dark"
+    ],
+    "builds": [
+      {
+        "build": "Weavile @ Heavy-Duty Boots\nAbility: Pressure\nEVs: 252 Atk / 4 SpD / 252 Spe\nTera Type: Ice\nJolly Nature\n- Triple Axel\n- Knock Off\n- Ice Shard\n- Swords Dance",
+        "roles": [
+          "Setup Sweeper",
+          "Priority User",
+          "Fast"
+        ],
+        "teamFit": [
+          "hyper offense",
+          "offense",
+          "balance",
+          "bulky offense"
+        ]
+      },
+      {
+        "build": "Weavile @ Choice Band\nAbility: Pressure\nEVs: 252 Atk / 4 Def / 252 Spe\nTera Type: Ice\nJolly Nature\n- Triple Axel\n- Knock Off\n- Ice Shard\n- Low Kick",
+        "roles": [
+          "Wallbreaker",
+          "Priority User",
+          "Fast"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ogerpon-wellspring-tera",
+    "types": [
+      "water",
+      "grass"
+    ],
+    "builds": [
+      {
+        "build": "Ogerpon-Wellspring @ Wellspring Mask\nAbility: Water Absorb\nEVs: 252 Atk / 4 SpD / 252 Spe\nTera Type: Water\nJolly Nature\n- Swords Dance\n- Ivy Cudgel\n- Power Whip\n- Play Rough",
+        "roles": [
+          "Setup Sweeper",
+          "Fast",
+          "Wallbreaker"
+        ],
+        "teamFit": [
+          "hyper offense",
+          "bulky offense",
+          "balance"
+        ]
+      }
+    ]
+  }
+]

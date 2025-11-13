@@ -73,9 +73,45 @@ class Pokemon:
     def __str__(self) -> str:
         return f"{self.name.capitalize()} ({'/'.join(t.capitalize() for t in self.types)})"
     
-    def get_random_build(self) -> str:
-        """Return a random build for this Pokémon."""
-        build_choice = random.choice(self.builds)
+    def has_matching_playstyle(self, team_playstyle: str) -> bool:
+        """
+        Check if this Pokémon has any builds that match the specified team playstyle.
+        
+        Args:
+            team_playstyle: The team playstyle to check for
+            
+        Returns:
+            True if at least one build matches the playstyle, False otherwise
+        """
+        if not team_playstyle:
+            return True
+            
+        for build in self.builds:
+            if isinstance(build, dict) and "teamFit" in build and team_playstyle in build["teamFit"]:
+                return True
+                
+        return False
+    
+    def get_random_build(self, team_playstyle: Optional[str] = None) -> str:
+        """
+        Return a random build for this Pokémon.
+        
+        If team_playstyle is specified, only builds that match the playstyle will be considered.
+        """
+        # Filter builds based on team playstyle if specified
+        valid_builds = self.builds
+        
+        if team_playstyle:
+            # Filter builds that have the specified team playstyle in their teamFit array
+            valid_builds = [
+                build for build in self.builds
+                if isinstance(build, dict) and
+                "teamFit" in build and
+                team_playstyle in build["teamFit"]
+            ]
+        
+        build_choice = random.choice(valid_builds)
+        
         # Handle both string builds (old format) and object builds (new format)
         if isinstance(build_choice, dict):
             return build_choice["build"]
@@ -127,13 +163,14 @@ class TeamBuilder:
         
         return pokemon_list
     
-    def get_pokemon_with_resistance(self, attack_type: str, team: List[Pokemon] = None) -> List[Pokemon]:
+    def get_pokemon_with_resistance(self, attack_type: str, team: List[Pokemon] = None, team_playstyle: Optional[str] = None) -> List[Pokemon]:
         """
         Get all Pokémon that resist or are immune to the given attack type.
         
         Args:
             attack_type: The type to check resistance against
             team: Optional list of Pokémon already on the team (to exclude)
+            team_playstyle: Optional team playstyle to filter Pokémon by
             
         Returns:
             List of Pokémon that resist or are immune to the attack type
@@ -145,19 +182,24 @@ class TeamBuilder:
             if pokemon.name in team_names:
                 continue
                 
+            # Skip Pokémon that don't match the team playstyle
+            if team_playstyle and not pokemon.has_matching_playstyle(team_playstyle):
+                continue
+                
             effectiveness = pokemon.resists_type(attack_type)
             if effectiveness < 1:  # Resistant or immune
                 resistant_pokemon.append(pokemon)
         
         return resistant_pokemon
     
-    def get_pokemon_with_immunity(self, attack_type: str, team: List[Pokemon] = None) -> List[Pokemon]:
+    def get_pokemon_with_immunity(self, attack_type: str, team: List[Pokemon] = None, team_playstyle: Optional[str] = None) -> List[Pokemon]:
         """
         Get all Pokémon that are immune to the given attack type.
         
         Args:
             attack_type: The type to check immunity against
             team: Optional list of Pokémon already on the team (to exclude)
+            team_playstyle: Optional team playstyle to filter Pokémon by
             
         Returns:
             List of Pokémon that are immune to the attack type
@@ -169,16 +211,23 @@ class TeamBuilder:
             if pokemon.name in team_names:
                 continue
                 
+            # Skip Pokémon that don't match the team playstyle
+            if team_playstyle and not pokemon.has_matching_playstyle(team_playstyle):
+                continue
+                
             effectiveness = pokemon.resists_type(attack_type)
             if effectiveness == 0:  # Immune
                 immune_pokemon.append(pokemon)
         
         return immune_pokemon
     
-    def build_team(self) -> List[Pokemon]:
+    def build_team(self, team_playstyle: Optional[str] = None) -> List[Pokemon]:
         """
         Build a competitive team with proper defensive coverage.
         
+        Args:
+            team_playstyle: Optional team playstyle to filter Pokémon by
+            
         Returns:
             List of 6 Pokémon forming a balanced team
         """
@@ -216,7 +265,7 @@ class TeamBuilder:
                 # Check if we need immunity for this type
                 if priority_type == "ground" and coverage[priority_type] == 0:
                     # For ground, try to get an immunity first
-                    immune_pokemon = self.get_pokemon_with_immunity(priority_type, team)
+                    immune_pokemon = self.get_pokemon_with_immunity(priority_type, team, team_playstyle)
                     if immune_pokemon:
                         new_pokemon = random.choice(immune_pokemon)
                         team.append(new_pokemon)
@@ -224,7 +273,7 @@ class TeamBuilder:
                         continue
                 
                 # Get Pokémon that resist this type
-                resistant_pokemon = self.get_pokemon_with_resistance(priority_type, team)
+                resistant_pokemon = self.get_pokemon_with_resistance(priority_type, team, team_playstyle)
                 
                 if not resistant_pokemon:
                     # If no resistant Pokémon available, try another type
@@ -261,18 +310,21 @@ class TeamBuilder:
         
         return team
     
-    def generate_team_output(self) -> str:
+    def generate_team_output(self, team_playstyle: Optional[str] = None) -> str:
         """
         Generate a complete team with builds and return as formatted text.
         
+        Args:
+            team_playstyle: Optional team playstyle to filter Pokémon by
+            
         Returns:
             String containing the full team with builds
         """
-        team = self.build_team()
+        team = self.build_team(team_playstyle)
         output = []
         
         for pokemon in team:
-            build = pokemon.get_random_build()
+            build = pokemon.get_random_build(team_playstyle)
             output.append(build)
         
         return "\n\n".join(output)
@@ -292,7 +344,8 @@ class ConfigManager:
             # Create default config if it doesn't exist
             default_config = {
                 "include_pokemon": [],
-                "exclude_pokemon": []
+                "exclude_pokemon": [],
+                "team_playstyle": None
             }
             with open(self.config_path, 'w') as f:
                 json.dump(default_config, f, indent=2)
@@ -303,7 +356,7 @@ class ConfigManager:
                 return json.load(f)
         except json.JSONDecodeError:
             print(f"Error: {self.config_path} is not a valid JSON file.")
-            return {"include_pokemon": [], "exclude_pokemon": []}
+            return {"include_pokemon": [], "exclude_pokemon": [], "team_playstyle": None}
     
     def get_included_pokemon(self) -> List[str]:
         """Get the list of Pokémon to include in team generation."""
@@ -312,6 +365,10 @@ class ConfigManager:
     def get_excluded_pokemon(self) -> List[str]:
         """Get the list of Pokémon to exclude from team generation."""
         return self.config.get("exclude_pokemon", [])
+    
+    def get_team_playstyle(self) -> Optional[str]:
+        """Get the team playstyle preference if specified."""
+        return self.config.get("team_playstyle")
 
 
 def is_ogerpon_form(pokemon_name: str) -> bool:
@@ -325,9 +382,25 @@ def main():
     config_manager = ConfigManager()
     included_pokemon = config_manager.get_included_pokemon()
     excluded_pokemon = config_manager.get_excluded_pokemon()
+    team_playstyle = config_manager.get_team_playstyle()
     
-    # Initialize team builder
-    builder = TeamBuilder("mons_db.json")
+    # Initialize team builder with the appropriate database
+    db_path = "mons_db.json"
+    if team_playstyle:
+        # Convert playstyle to filename format (replace spaces with underscores)
+        playstyle_filename = team_playstyle.replace(" ", "_")
+        playstyle_db_path = f"{playstyle_filename}_db.json"
+        
+        # Check if the playstyle-specific database exists
+        if os.path.exists(playstyle_db_path):
+            db_path = playstyle_db_path
+            print(f"Using {db_path} for {team_playstyle} playstyle")
+        
+    builder = TeamBuilder(db_path)
+    
+    # Print team playstyle if specified
+    if team_playstyle:
+        print(f"Building team with '{team_playstyle}' playstyle...")
     
     # Validate included Pokémon
     all_pokemon_names = [p.name.lower() for p in builder.pokemon_list]
@@ -373,7 +446,7 @@ def main():
             
             # Build the rest of the team
             builder.pokemon_list = available_pokemon
-            remaining_team = builder.build_team()
+            remaining_team = builder.build_team(team_playstyle)
             
             # Take only what we need to fill the team
             team.extend(remaining_team[:remaining_slots])
@@ -381,7 +454,7 @@ def main():
         # Generate output with the custom team
         output = []
         for pokemon in team:
-            build = pokemon.get_random_build()
+            build = pokemon.get_random_build(team_playstyle)
             output.append(build)
         
         team_output = "\n\n".join(output)
@@ -410,7 +483,7 @@ def main():
                 
             # Get the next Pokémon based on coverage requirements
             builder.pokemon_list = remaining_pokemon
-            next_pokemon = builder.build_team()[0]  # Get just one Pokémon
+            next_pokemon = builder.build_team(team_playstyle)[0]  # Get just one Pokémon
             team.append(next_pokemon)
             
             # Check if this is an Ogerpon form
@@ -420,7 +493,7 @@ def main():
         # Generate output with the team
         output = []
         for pokemon in team:
-            build = pokemon.get_random_build()
+            build = pokemon.get_random_build(team_playstyle)
             output.append(build)
         
         team_output = "\n\n".join(output)

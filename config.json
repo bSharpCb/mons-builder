@@ -1,4 +1,5 @@
 {
   "include_pokemon": [],
-  "exclude_pokemon": ["araquanid"]
+  "exclude_pokemon": ["araquanid"],
+  "team_playstyle": "hyper offense"
 }

@@ -1,0 +1,503 @@
+[
+  {
+    "name": "alomomola",
+    "types": [
+      "water"
+    ],
+    "builds": [
+      {
+        "build": "Alomomola @ Heavy-Duty Boots\nAbility: Regenerator\nEVs: 252 HP / 252 Def / 4 SpD\nIVs: 0 Spe\nTera Type: Ghost\nRelaxed Nature\n- Flip Turn\n- Wish\n- Protect\n- Scald",
+        "roles": [
+          "Support",
+          "Pivot",
+          "Physical wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "clefable",
+    "types": [
+      "fairy"
+    ],
+    "builds": [
+      {
+        "build": "Clefable @ Leftovers\nAbility: Magic Guard\nEVs: 252 HP / 252 Def / 4 SpD\nTera Type: Water\nBold Nature\n- Stealth Rock\n- Moonblast\n- Moonlight\n- Thunder Wave",
+        "roles": [
+          "Hazard Setter",
+          "Physical wall",
+          "Support",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      },
+      {
+        "build": "Clefable @ Heavy-Duty Boots\nAbility: Unaware\nEVs: 252 HP / 252 Def / 4 SpD\nIVs: 0 Atk\nTera Type: Poison\nBold Nature\n- Calm Mind\n- Moonblast\n- Moonlight\n- Thunder Wave",
+        "roles": [
+          "Bulky Setup",
+          "Physical wall",
+          "Support",
+          "Unaware",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "corviknight",
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Corviknight @ Rocky Helmet\nAbility: Pressure\nEVs: 248 HP / 252 Def / 8 SpD\nTera Type: Dragon\nImpish Nature\n- Brave Bird\n- Defog\n- U-turn\n- Roost",
+        "roles": [
+          "Hazard Control",
+          "Pivot",
+          "Physical wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      },
+      {
+        "build": "Corviknight @ Rocky Helmet\nAbility: Pressure\nEVs: 248 HP / 252 Def / 8 SpD\nTera Type: Fighting\nImpish Nature\n- Body Press\n- Iron Defense\n- U-turn\n- Roost",
+        "roles": [
+          "Pivot",
+          "Physical wall",
+          "Bulky Setup",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      },
+      {
+        "build": "Corviknight @ Rocky Helmet\nAbility: Pressure\nEVs: 248 HP / 252 Def / 8 SpD\nTera Type: Fighting\nImpish Nature\n- Body Press\n- Iron Defense\n- Defog\n- Roost",
+        "roles": [
+          "Hazard Control",
+          "Physical wall",
+          "Bulky Setup",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dondozo",
+    "types": [
+      "water"
+    ],
+    "builds": [
+      {
+        "build": "Dondozo @ Leftovers\nAbility: Unaware\nEVs: 252 HP / 252 Def / 4 SpD\nTera Type: Fighting\nImpish Nature\n- Waterfall\n- Curse\n- Rest\n- Sleep Talk",
+        "roles": [
+          "Physical wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "gholdengo",
+    "types": [
+      "ghost",
+      "steel"
+    ],
+    "builds": [
+      {
+        "build": "Gholdengo @ Air Balloon\nAbility: Good as Gold\nEVs: 252 HP / 196 Def / 60 Spe\nTera Type: Fairy\nBold Nature\n- Hex\n- Thunder Wave\n- Recover\n- Make It Rain",
+        "roles": [
+          "Bulky",
+          "Support"
+        ],
+        "teamFit": [
+          "balance",
+          "bulky offense",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "gliscor",
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Gliscor @ Toxic Orb\nAbility: Poison Heal\nEVs: 244 HP / 36 Def / 228 SpD\nTera Type: Water\nCareful Nature\n- Spikes\n- Knock Off\n- Toxic\n- Protect",
+        "roles": [
+          "Hazard Setter",
+          "Support",
+          "Special wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      },
+      {
+        "build": "Gliscor @ Toxic Orb\nAbility: Poison Heal\nEVs: 244 HP / 252 Def / 12 SpD\nTera Type: Fairy\nImpish Nature\n- Spikes\n- Earthquake\n- U-turn\n- Protect",
+        "roles": [
+          "Hazard Setter",
+          "Support",
+          "Physical wall",
+          "Bulky",
+          "Pivot"
+        ],
+        "teamFit": [
+          "balance",
+          "stall",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hatterene",
+    "types": [
+      "fairy",
+      "psychic"
+    ],
+    "builds": [
+      {
+        "build": "Hatterene (F) @ Rocky Helmet\nAbility: Magic Bounce\nEVs: 252 HP / 204 Def / 52 Spe\nTera Type: Water\nBold Nature\n- Psychic Noise\n- Draining Kiss\n- Pain Split\n- Nuzzle",
+        "roles": [
+          "Support",
+          "Hazard Control",
+          "Physical wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "offense",
+          "hyper offense",
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kyurem",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "builds": [
+      {
+        "build": "Kyurem @ Leftovers\nAbility: Pressure\nEVs: 52 HP / 204 SpA / 252 Spe\nTera Type: Ground\nTimid Nature\n- Substitute\n- Protect\n- Freeze-Dry\n- Earth Power",
+        "roles": [
+          "Setup Sweeper",
+          "Bulky",
+          "Bulky Setup",
+          "Stallbreaker"
+        ],
+        "teamFit": [
+          "bulky offense",
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "scizor",
+    "types": [
+      "steel",
+      "bug"
+    ],
+    "builds": [
+      {
+        "build": "Scizor @ Sitrus Berry\nAbility: Technician\nEVs: 248 HP / 252 Atk / 8 SpD\nTera Type: Steel\nAdamant Nature\n- Bullet Punch\n- U-turn\n- Knock Off\n- Defog",
+        "roles": [
+          "Hazard Control",
+          "Pivot",
+          "Support",
+          "Priority User"
+        ],
+        "teamFit": [
+          "balance",
+          "stall",
+          "bulky offense"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ting-lu",
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "builds": [
+      {
+        "build": "Ting-Lu @ Leftovers\nAbility: Vessel of Ruin\nEVs: 252 HP / 4 Def / 252 SpD\nTera Type: Water\nCareful Nature\n- Earthquake\n- Rest\n- Ruination\n- Sleep Talk",
+        "roles": [
+          "Special wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "weezing-galar",
+    "types": [
+      "poison",
+      "fairy"
+    ],
+    "builds": [
+      {
+        "build": "Weezing-Galar @ Heavy-Duty Boots\nAbility: Neutralizing Gas\nEVs: 252 HP / 252 Def / 4 SpD\nTera Type: Flying\nBold Nature\n- Sludge Bomb\n- Defog\n- Pain Split\n- Will-O-Wisp",
+        "roles": [
+          "Hazard Control",
+          "Support",
+          "Bulky",
+          "Physical wall"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "amoonguss",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "builds": [
+      {
+        "build": "Amoonguss @ Heavy-Duty Boots\nAbility: Regenerator\nEVs: 248 HP / 244 Def / 16 SpD\nTera Type: Steel\nBold Nature\n- Foul Play\n- Toxic\n- Synthesis\n- Clear Smog",
+        "roles": [
+          "Physical wall",
+          "Bulky",
+          "Phasing",
+          "Support"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "blissey",
+    "types": [
+      "normal"
+    ],
+    "builds": [
+      {
+        "build": "Blissey @ Leftovers\nAbility: Natural Cure\nEVs: 4 HP / 252 Def / 252 SpD\nIVs: 0 Atk\nTera Type: Dark\nCalm Nature\n- Soft-Boiled\n- Calm Mind\n- Seismic Toss\n- Stealth Rock",
+        "roles": [
+          "Hazard Setter",
+          "Special wall",
+          "Physical wall",
+          "Bulky",
+          "Support"
+        ],
+        "teamFit": [
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chansey",
+    "types": [
+      "normal"
+    ],
+    "builds": [
+      {
+        "build": "Chansey @ Eviolite\nAbility: Natural Cure\nEVs: 248 HP / 252 Def / 8 SpD\nIVs: 0 Atk\nTera Type: Ghost\nBold Nature\n- Stealth Rock\n- Seismic Toss\n- Soft-Boiled\n- Thunder Wave",
+        "roles": [
+          "Special wall",
+          "Physical wall",
+          "Bulky",
+          "Support"
+        ],
+        "teamFit": [
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "clodsire",
+    "types": [
+      "ground",
+      "poison"
+    ],
+    "builds": [
+      {
+        "build": "Clodsire @ Heavy-Duty Boots\nAbility: Unaware\nEVs: 248 HP / 8 Def / 252 SpD\nTera Type: Steel\nCareful Nature\n- Earthquake\n- Recover\n- Toxic\n- Stealth Rocks",
+        "roles": [
+          "Special wall",
+          "Bulky",
+          "Hazard Setter",
+          "Support",
+          "Unaware"
+        ],
+        "teamFit": [
+          "stall",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mandibuzz",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Mandibuzz @ Heavy-Duty Boots\nAbility: Overcoat\nEVs: 248 HP / 244 Def / 16 Spe\nTera Type: Water\nBold Nature\n- Foul Play\n- Iron Defense\n- Roost\n- Toxic",
+        "roles": [
+          "Physical wall",
+          "Bulky",
+          "Hazard Control"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "quagsire",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "builds": [
+      {
+        "build": "Quagsire @ Leftovers\nAbility: Unaware\nEVs: 252 HP / 252 Def / 4 SpD\nTera Type: Fairy\nImpish Nature\n- Stealth Rock\n- Earthquake\n- Recover\n- Toxic",
+        "roles": [
+          "Hazard Setter",
+          "Wall",
+          "Unaware",
+          "Physical wall"
+        ],
+        "teamFit": [
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "skarmory",
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Skarmory @ Rocky Helmet\nAbility: Sturdy\nEVs: 252 HP / 160 Def / 96 Spe\nTera Type: Dragon\nBold Nature\n- Body Press\n- Iron Defense\n- Roost\n- Spikes",
+        "roles": [
+          "Hazard Setter",
+          "Physical wall",
+          "Bulky"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "talonflame",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "builds": [
+      {
+        "build": "Talonflame @ Heavy-Duty Boots\nAbility: Flame Body\nEVs: 248 HP / 172 Def / 88 Spe\nTera Type: Ghost\nBold Nature\n- Flamethrower\n- Defog\n- Will-O-Wisp\n- Roost",
+        "roles": [
+          "Hazard Control",
+          "Support",
+          "Fast"
+        ],
+        "teamFit": [
+          "balance",
+          "stall"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "toxapex",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "builds": [
+      {
+        "build": "Toxapex @ Heavy-Duty Boots\nAbility: Regenerator\nEVs: 248 HP / 8 Def / 252 SpD\nTera Type: Steel\nCalm Nature\n- Toxic\n- Recover\n- Haze\n- Toxic Spikes",
+        "roles": [
+          "Hazard Setter",
+          "Physical wall",
+          "Special wall",
+          "Bulky",
+          "Phasing",
+          "Support"
+        ],
+        "teamFit": [
+          "stall"
+        ]
+      },
+      {
+        "build": "Toxapex @ Assault Vest\nAbility: Regenerator\nEVs: 248 HP / 4 Def / 252 SpA / 4 Spe\nIVs: 0 Atk\nTera Type: Steel\nModest Nature\n- Sludge Bomb\n- Surf\n- Ice Beam\n- Infestation",
+        "roles": [
+          "Special wall",
+          "Bulky",
+          "Support"
+        ],
+        "teamFit": [
+          "stall",
+          "balance"
+        ]
+      }
+    ]
+  }
+]
